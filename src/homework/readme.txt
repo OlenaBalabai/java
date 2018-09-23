@@ -11,7 +11,7 @@
 1.8 boolean (true or false, 1 byte)
 2. Create several integer literals (use google and found difference between variables and literals at first:))
 3. Print all variables by means of System.out.println(variable name should be here)
-4. Add some dingle line comment
+4. Add some single line comment
 5. Add some multiline comment
 6. Remove print hello workd from programm))
 6. Enjoy codding Java=)
