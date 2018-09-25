@@ -14,4 +14,4 @@
 4. Add some single line comment
 5. Add some multiline comment
 6. Remove print hello workd from programm))
-6. Enjoy codding Java=)
+7. Enjoy codding Java=)

@@ -1,16 +1,20 @@
 public class Main {
 
+    /**
+     This
+     is
+     documentation
+     comment
+     */
     public static void main(String[] args) {
         //region Some variables should be described here
+        //region best practice to declare and define in one line   boolean myBoolVar = False;
         boolean boolVar;
 
         boolVar = true;
 
-        System.out.println("boolVar = " + boolVar);
-
         boolVar = false;
-
-        System.out.println("boolVar = " + boolVar);
+        //endregion
         int a = 101; // decimal-form literal
         int b = 0100; // octal-form literal
         int c = 0xFace; // Hexa-decimal form literal
@@ -19,29 +23,20 @@ public class Main {
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
-        //endregion
 
-        //region Some prints of variables should be here
-        println(char x);
-        println(char[] x);
-        println(double x);
-        println(float x);
-        println(int x);
-        println(long x);
-        println(Object x);
-        println(String x);
+        System.out.println("boolVar = " + boolVar);
 
-        //endregion
 
-        System.out.println("Hello World!");
-        /**
-         This
-         is
-         documentation
-         comment
-         */
+        int myVariable = 20;
+        myVariable = 40;
 
-    // single line comment
+
+        System.out.println(myVariable);
+
+        // single line comment
         // /* Multi-line comments */
+
+        /*1. Please add double, float, byte, , string, char, short and long variable with some value and print variables
+        * 2. print literals of some strings, numbers, chars*/
     }
 }
